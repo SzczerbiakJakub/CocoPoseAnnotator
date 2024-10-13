@@ -1,0 +1,4 @@
+pyqt5==5.15.10
+numpy==1.26.4
+
+# Requires Python 3.11.7
