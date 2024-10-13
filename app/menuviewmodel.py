@@ -19,6 +19,5 @@ class MenuViewModel(QObject):
             filepath = file_dialog.selectedFiles()
             
             if filepath:
-                print(filepath)
                 self.load_files.emit(filepath[0])
         
