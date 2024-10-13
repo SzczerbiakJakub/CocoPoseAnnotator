@@ -1,5 +1,5 @@
-from app.gui import MainWindow
-from app.dataset import DatasetInput
+from view.gui import MainWindow
+from model.dataset import DatasetInput
 import sys
 
 from PyQt5.QtWidgets import QApplication

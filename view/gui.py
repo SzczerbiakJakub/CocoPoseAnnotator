@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QAction, QWidget, QVBoxLayout, QHBoxLayout
 from PyQt5.QtCore import Qt, pyqtSignal
-from . import mainwindowviewmodel
+from viewmodel import mainwindowviewmodel
 from . import photowidget
 from . import menuwidget
 

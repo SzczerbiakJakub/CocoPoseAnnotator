@@ -4,7 +4,7 @@ from PyQt5.QtGui import QPixmap, QImage, QPainter, QPen, QColor
 from PyQt5.QtCore import Qt, pyqtSignal
 
 import cv2
-from . import photoviewmodel
+from viewmodel import photoviewmodel
 
 
 class PhotoWidget(QLabel):

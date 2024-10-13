@@ -1,6 +1,6 @@
 
 from PyQt5.QtWidgets import QLabel, QVBoxLayout, QPushButton, QFileDialog
-from . import menuviewmodel
+from viewmodel import menuviewmodel
 
 
 class MenuWidget(QLabel):
